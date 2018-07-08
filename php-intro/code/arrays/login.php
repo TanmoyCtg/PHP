@@ -1,23 +1,23 @@
 <?php
-	if (isset($_POST['cancel'])) {
+	if (isset($_GET['cancel'])) {
 		header("Location: index.php");
 		return;
 	}
 	$salt = 'XyZzy12*_';
-	$stored_hash = 'a8609e8d62c043243c4e201cbb342862';
+	$stored_hash = '1a52e17fa899cf40fb04cfc42e6352f1';
 	$failure = false;
-	if (isset($_POST['who']) && isset($_POST['pass'])) {
+	if (isset($_GET['who']) && isset($_GET['pass'])) {
 
-		if (strlen($_POST['who']) < 1 || strlen($_POST['pass'])<1){
+		if (strlen($_GET['who']) < 1 || strlen($_GET['pass'])<1){
 
 			$failure = "User name and password are required";
 
 		} else {
 			
-			$check = hash('md5', $salt.$_POST['pass']);
+			$check = hash('md5', $salt.$_GET['pass']);
 
 			if ($check == $stored_hash){
-				header("Location: game.php?name=".urlencode($_POST['who']));
+				header("Location: game.php?name=".urlencode($_GET['who']));
 				return;
 
 			} else{
@@ -40,7 +40,7 @@
 				echo ('<p style="color: red;">'.htmlentities($failure)."</p>\n");
 			}
 		?>
-		<form method="post">
+		<form method="GET">
 			<label for="nam">User Name</label>
 			<input type="text" name="who" id="nam"><br>
 			<label for="id_1723">Password</label>
