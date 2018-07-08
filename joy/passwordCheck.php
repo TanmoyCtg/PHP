@@ -17,15 +17,11 @@ if (filter_has_var(INPUT_POST, 'submit')){
 			}	
 		}	
 		else{
-			$error = "password don't match";
+			$error = "password don't match";	
 		}
 	}
-
-
 }
-
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,8 +31,7 @@ if (filter_has_var(INPUT_POST, 'submit')){
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 	<?php
 		if ($error == true){echo $error."<br>";}
-		else{ echo $confirmMsg."<br>";}
-		
+		else{ echo $confirmMsg."<br>";}		
 	?>
 	<label>password</label>
 	<input type="password" name="password" ><br>
