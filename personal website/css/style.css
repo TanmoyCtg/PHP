@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+	font-size: 18px;
+	font-family: 'Roboto',sans-serif; 
+	line-height: 1.5;
+	color: #f5f6f7;
+}
+
+p{
+	font-size: 18px;
+	font-family: 'Quicksand',sans-serif;
+
+}
+
+img{
+	border-radius: 50%;
+	width: 200px;
+}
+
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+
+ }
 .footer
 {
 	position: fixed;
@@ -12,7 +36,13 @@
 	margin-top: -2em;
 	text-align:center;
 }
-img{
-	border-radius: 50%;
-	width: 180px;
+
+.margin{margin-bottom: 10px;}
+.bg-1{
+	background-color: #1abc9c;
+	color: #ffffff;
+}
+.bg-3{
+	background-color: #1abc9c;
+	color: #ffffff;
 }
