@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 body{
-	font-size: 18px;
 	font-family: 'Roboto',sans-serif; 
 	line-height: 1.5;
 	color: #f5f6f7;
+	height: 100%;
 }
 
 p{
@@ -24,7 +24,7 @@ img{
  }
 .footer
 {
-	position: fixed;
+	/*position: fixed;*/
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -32,9 +32,10 @@ img{
 	color:#F8F8FF;
 	clear: both;
 	z-index: 10;
-	height: 2em;
-	margin-top: -2em;
+	height: 1em;
+	margin-top: -0.5em;
 	text-align:center;
+	font-weight: bold;
 }
 
 .margin{margin-bottom: 10px;}
