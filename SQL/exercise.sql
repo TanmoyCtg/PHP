@@ -14,4 +14,6 @@ UPDATE users SET name="charles" WHERE email="csev@umich.edu"
 SELECT * FROM `users` WHERE name LIKE '%e%'
 //show all the people who have "e" in their name
 
+SELECT COUNT(*) FROM users
+// how many users in the database. count() function count the users in the table.
 SELECT * FROM `users` WHERE 1
