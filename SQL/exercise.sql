@@ -17,3 +17,27 @@ SELECT * FROM `users` WHERE name LIKE '%e%'
 SELECT COUNT(*) FROM users
 // how many users in the database. count() function count the users in the table.
 SELECT * FROM `users` WHERE 1
+
+CREATE DATABASE Ages DEFAULT CHARACTER SET utf8
+
+CREATE TABLE Ages( name varchar(128), age integer ) 
+
+DELETE FROM ages 
+
+INSERT INTO Ages (name, age) VALUES ('Zahra', 34) 
+INSERT INTO Ages (name, age) VALUES ('Olufunke', 23) 
+INSERT INTO Ages (name, age) VALUES ('Choire', 38) 
+INSERT INTO Ages (name, age) VALUES ('Makenna', 32) 
+INSERT INTO Ages (name, age) VALUES ('Ula', 16) 
+INSERT INTO Ages (name, age) VALUES ('Garren', 40) 
+
+SELECT sha1(CONCAT(name,age)) AS X FROM Ages ORDER BY X
+
+SELECT sha1(CONCAT(name,age)) AS X FROM Ages Where name="Zahra" ORDER BY X 
+
+
+INSERT INTO Ages (name, age) VALUES ('Brannan', 38);
+INSERT INTO Ages (name, age) VALUES ('Latisha', 27);
+INSERT INTO Ages (name, age) VALUES ('Ariana', 15);
+INSERT INTO Ages (name, age) VALUES ('Kacee', 14);
+
