@@ -26,7 +26,6 @@ Here, I write and document all my php code. I also make some project for my futu
  <li>filter_var_array() Gets multiple variables and filter them</li>
  <li>filter_var() Filters a variable with a specified filter</li>
  </ul>
- 
  <section>
  <h3>PHP error handling</h3>
  <p>You should use die() function.
@@ -42,4 +41,10 @@ Here, I write and document all my php code. I also make some project for my futu
  '''
  </p>
 </section>
+	```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+	
 </p>
