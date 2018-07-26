@@ -41,6 +41,18 @@ Here, I write and document all my php code. I also make some project for my futu
 ?>
  
  ```
+ ## Creating a custom error handling
+ If you want to handle custom error, then you need to create a function which is give a message when error occurs.
+ function have two param(error level, error message) 
+ 
+ ```php
+  function error($errorno, $errorstr){
+  	echo "Error: [$errorno] $errorstr";
+	echo "Ending script";
+	die();
+  }
+  
+```
  </p>
 </section>
 	
