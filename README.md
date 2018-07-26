@@ -26,4 +26,20 @@ Here, I write and document all my php code. I also make some project for my futu
  <li>filter_var_array() Gets multiple variables and filter them</li>
  <li>filter_var() Filters a variable with a specified filter</li>
  </ul>
+ 
+ <section>
+ <h3>PHP error handling</h3>
+ <p>You should use die() function.
+  <code>
+   <?php
+	// $file = fopen("welcome.txt","r");
+	if(!file_exists("welcome.txt")){
+		die("File not found");	
+	} else{
+		$file = fopen("welcome.txt","r");
+	}
+?>
+  </code>
+ </p>
+</section>
 </p>
