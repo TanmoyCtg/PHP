@@ -30,7 +30,7 @@ Here, I write and document all my php code. I also make some project for my futu
  <section>
  <h3>PHP error handling</h3>
  <p>You should use die() function.
-  <code>
+  ```php
    <?php
 	// $file = fopen("welcome.txt","r");
 	if(!file_exists("welcome.txt")){
@@ -39,7 +39,7 @@ Here, I write and document all my php code. I also make some project for my futu
 		$file = fopen("welcome.txt","r");
 	}
 ?>
-  </code>
+ ```
  </p>
 </section>
 </p>
