@@ -17,12 +17,13 @@ Here, I write and document all my php code. I also make some project for my futu
  <h4>PHP Fileters???</h4>
  In website if you take input from user, then you need filters. Why?. Because through filtering you cleaning the mess data or remove     illigal character and takes good data. Filtering is good validating and sanitizing data. 
  <b>filter_var() function validate and sanitize usr input.</b> If you want to validate an integer, then you should use FILTER_VALIDATE_INT. For email you should use FILTER_SANITIZE_EMAIL -> this is for sanitize the email and validating FILTER_VALIDATE_EMAIL
-
-filter_has_var() Checks if a variable of a specified input type exist
-filter_id() Returns the filter ID of a specified filter name
-filter_input() Gets an external variable (e.g. from form input) and optionally filters it
-filter_input_array() Gets external variables (e.g. from form input) and optionally filters them
-filter_list() Returns a list of all supported filters
-filter_var_array() Gets multiple variables and filter them
-filter_var() Filters a variable with a specified filter
+<ul>
+ <li>filter_has_var() Checks if a variable of a specified input type exist</li>
+ <li>filter_id() Returns the filter ID of a specified filter name</li>
+ <li>filter_input() Gets an external variable (e.g. from form input) and optionally filters it</li>
+ <li>filter_input_array() Gets external variables (e.g. from form input) and optionally filters them</li>
+ <li>filter_list() Returns a list of all supported filters</li>
+ <li>filter_var_array() Gets multiple variables and filter them</li>
+ <li>filter_var() Filters a variable with a specified filter</li>
+ </ul>
 </p>
