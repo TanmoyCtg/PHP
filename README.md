@@ -53,7 +53,6 @@ Here, I write and document all my php code. I also make some project for my futu
   }
   
 ```
-
 ###### PHP Exception Handling
 ###### What is an Exception???
 You write a program and it's not show you the desired output.It's stop the prograam because error happens. Exception basically stops
