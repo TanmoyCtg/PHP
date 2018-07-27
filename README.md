@@ -69,7 +69,7 @@ program flow.We don't want stop the program. ** That's why we need to deal with 
 <li>cross platform. You can use windows and unix</li>
 <li>Basically most of people work with PHP.</li>
 </ul>
-###### What is Query?
+<h3>What is Query?</h3>
 A query is a question or request. When we need information from database we run query.
 ## How to connect PHP with MySQL?
 You have two ways.
