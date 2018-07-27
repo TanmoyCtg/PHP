@@ -58,50 +58,47 @@ Here, I write and document all my php code. I also make some project for my futu
 You write a program and it's not show you the desired output.It's stop the prograam because error happens. Exception basically stops
 program flow.We don't want stop the program. ** That's why we need to deal with Exception Handling **
  </p>
-</section>	
+	
 </p>
 
-<section>
-	## MySQL
-	<ul>
-		<li>MySQL is a database system</li>
-		<li>Used on the web.</li>
-		<li>cross platform. You can use windows and unix</li>
-		<li>Basically most of people work with PHP.</li>
-	</ul>
-	###### What is Query?
-	A query is a question or request. When we need information from database we run query.
-	## How to connect PHP with MySQL?
-	You have two ways.
-	<li>MySQLi</li>
-	<li>PDO = PHP data objects</li>
-	<p>MySQLi means mysql improved. MySQLi only works one database system which is MySQL. But PDO works with 12 different database 		systems. So, it's good to use PDO.</p>
-	
-		## How to connect PDO with PHP?
-	
-		```php
-	
-		<?php 
-		$host = "localhost";
-		$user = "root";
-		$password = "";
-		$dbName = 'music';	
 
-		try{
-			// set dsn
-			$dsn = 'mysql:host='. $host .';dbname='.$dbName;
-			// create a PDO instance
-			$pdo = new PDO($dsn, $user,$password);
-			$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-			echo "Connected sucessfully";
-		}
-		catch(PDOException $e){
-			echo "Connection failed: ". $e->getMessage();
-		}	
-
-	?>
-
-	```
-
+## MySQL
+<ul>
+<li>MySQL is a database system</li>
+<li>Used on the web.</li>
+<li>cross platform. You can use windows and unix</li>
+<li>Basically most of people work with PHP.</li>
+</ul>
+###### What is Query?
+A query is a question or request. When we need information from database we run query.
+## How to connect PHP with MySQL?
+You have two ways.
+<li>MySQLi</li>
+<li>PDO = PHP data objects</li>
+<p>MySQLi means mysql improved. MySQLi only works one database system which is MySQL. But PDO works with 12 different database 		systems. So, it's good to use PDO.
+</p>
 	
+## How to connect PDO with PHP?		
+
+```php
+<?php 
+$host = "localhost";
+$user = "root";
+$password = "";
+$dbName = 'music';	
+
+try{
+	// set dsn
+	$dsn = 'mysql:host='. $host .';dbname='.$dbName;
+	// create a PDO instance
+	$pdo = new PDO($dsn, $user,$password);
+	$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+	echo "Connected sucessfully";
+}
+catch(PDOException $e){
+	echo "Connection failed: ". $e->getMessage();
+}	
+
+?>
+```
 </section>
