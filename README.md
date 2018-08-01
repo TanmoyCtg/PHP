@@ -1,5 +1,24 @@
 # PHP
-Here, I write and document all my php code. I also make some project for my future work!
+Here, I write and document all my php code. I also make some project for 
+my future work!
+<h1>I want to tell you about PHP! Listen!</h1>
+<p>
+	<li>PHP syntax inspired by C. curly braces, semicolons</li>
+	<li>Syntax inspired by perl-dollar signs, associative array</li>
+	<li>You can use PHP with HTML file.</li>
+<h2>Philosophy of PHP</h2>
+<li>You are a responsible and intelligent programmer.</li>
+<li>You know what you want to do</li>
+<li>Sometimes errors fail silently</li>
+<li>flexibility in syntax is ok.</li>
+## PHP from command line
+<li>You can run php code from command line. The output shows in the command line</li>
+## Ok? Why Need PHP?
+If you want to make a website or web apps where you want to interect with user and need user information
+## PHP Variables
+
+</p>
+
 
 <h1>How to create cookies in php?</h1>
 <p>setcookie() creates the cookie.The setcookie() function must appear BEFORE the <html> tag
