@@ -20,13 +20,13 @@ If you want to make a website or web apps where you want to interect with user a
 <li>Case matters</li>
 <li>A variable can not start with number</li>
 <li>Variable names case sensitive $age and $AGE are two different things</li>
-```php
 
+```php
 $name = "joy";
 $one = 1;
 $y = 2.00;
-
 ```
+
 <h3>PHP echo</h3>
 There are two ways you can get output in php: echo and and print
 </p>
