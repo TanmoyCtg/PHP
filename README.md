@@ -16,7 +16,19 @@ my future work!
 <h4>Ok? Why Need PHP? </h4>
 If you want to make a website or web apps where you want to interect with user and need user information
 <h3>PHP Variables</h3>
+<li>variables starts with $ sign follwed by letter or underscore</li>
+<li>Case matters</li>
+<li>A variable can not start with number</li>
+<li>Variable names case sensitive $age and $AGE are two different things</li>
+```php
 
+$name = "joy";
+$one = 1;
+$y = 2.00;
+
+```
+<h3>PHP echo</h3>
+There are two ways you can get output in php: echo and and print
 </p>
 
 
