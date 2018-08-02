@@ -11,11 +11,11 @@ my future work!
 <li>You know what you want to do</li>
 <li>Sometimes errors fail silently</li>
 <li>flexibility in syntax is ok.</li>
-## PHP from command line
+<h3> PHP from command line</h3>
 <li>You can run php code from command line. The output shows in the command line</li>
-## Ok? Why Need PHP?
+<h4>Ok? Why Need PHP? </h4>
 If you want to make a website or web apps where you want to interect with user and need user information
-## PHP Variables
+<h3>PHP Variables</h3>
 
 </p>
 
