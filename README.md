@@ -29,6 +29,54 @@ $y = 2.00;
 
 <h3>PHP echo</h3>
 There are two ways you can get output in php: echo and and print
+PHP data types: Data types means is your variable string , integer or float. PHP support following data types:
+<li>String</li>
+<li>Integer</li>
+<li>Float</li>
+<li>Boolean</li>
+<li>Array</li>
+<li>Object</li>
+<li>NULL</li>
+<li>Resource</li>
+
+<h2>PHP String<h2>
+<b>A string is a sequence of characters.</b>
+How to write or declare string in PHP?
+```php
+$x = "Hello World"; // inside the quotes Hello World is a string
+$one = 1; // 1 is a integer
+$oneFloat = 1.11 // float number
+echo $x; // use semi-colon or it gives error
+echo $one;
+echo $oneFloat;
+// you can use single quote also
+echo 'this is a simple string';
+echo 'You can also have embedded newlines in string this way as it is okay to do';
+// you can use print also
+print $x;
+print $one;
+print $oneFloat;
+```
+
+<h2>PHP String Functions</h2>
+<h3>Get the length of the string</h3>
+<p>
+	<li>PHP strlen() function returns the length of the string .</li>
+	<li>Count the number of words in a string</li>
+	<li>The PHP strrev() function reverses a string:</li>
+<li>Search for a Specific Text within a String,The PHP strpos() function searches for a specific text within a string.</li>
+<li>If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE.</li>
+<li>Replace text with in a string.PHP str_replace() function takes two arguments. first "joy" is in the "Hello joy!". I need to replace this with "tanmoy".</li>
+</b>
+```php
+
+echo strlen("Hello World");
+echo str_word_count("Hello World!");
+echo strrev("Hello World");
+echo strpos("Hello World!","world");
+echo str_replace("joy","tanmoy","Hello joy!");
+```
+</p>
 </p>
 
 
