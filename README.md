@@ -42,7 +42,9 @@ PHP data types: Data types means is your variable string , integer or float. PHP
 <h2>PHP String<h2>
 <b>A string is a sequence of characters.</b>
 How to write or declare string in PHP?
+
 ```php
+
 $x = "Hello World"; // inside the quotes Hello World is a string
 $one = 1; // 1 is a integer
 $oneFloat = 1.11 // float number
@@ -56,6 +58,7 @@ echo 'You can also have embedded newlines in string this way as it is okay to do
 print $x;
 print $one;
 print $oneFloat;
+
 ```
 
 <h2>PHP String Functions</h2>
@@ -76,10 +79,6 @@ echo strrev("Hello World");
 echo strpos("Hello World!","world");
 echo str_replace("joy","tanmoy","Hello joy!");
 ```
-</p>
-</p>
-
-
 <h1>How to create cookies in php?</h1>
 <p>setcookie() creates the cookie.The setcookie() function must appear BEFORE the <html> tag
  You need user name and value. Then set the username in a variable like $cookie_name. cookies saved in user computer
@@ -110,6 +109,7 @@ echo str_replace("joy","tanmoy","Hello joy!");
  <p>You should use die() function.
   
   ```php
+  
    <?php
 	// $file = fopen("welcome.txt","r");
 	if(!file_exists("welcome.txt")){
