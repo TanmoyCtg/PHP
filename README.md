@@ -63,14 +63,13 @@ print $oneFloat;
 
 <h2>PHP String Functions</h2>
 <h3>Get the length of the string</h3>
-<p>
 	<li>PHP strlen() function returns the length of the string .</li>
 	<li>Count the number of words in a string</li>
 	<li>The PHP strrev() function reverses a string:</li>
 <li>Search for a Specific Text within a String,The PHP strpos() function searches for a specific text within a string.</li>
 <li>If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE.</li>
 <li>Replace text with in a string.PHP str_replace() function takes two arguments. first "joy" is in the "Hello joy!". I need to replace this with "tanmoy".</li>
-</b>
+
 ```php
 
 echo strlen("Hello World");
@@ -78,23 +77,30 @@ echo str_word_count("Hello World!");
 echo strrev("Hello World");
 echo strpos("Hello World!","world");
 echo str_replace("joy","tanmoy","Hello joy!");
+
 ```
 <h1>How to create cookies in php?</h1>
-<p>setcookie() creates the cookie.The setcookie() function must appear BEFORE the <html> tag
- You need user name and value. Then set the username in a variable like $cookie_name. cookies saved in user computer
+<li>setcookie() creates the cookie.The setcookie() function must appear BEFORE the <html> tag</li>
+<li>You need user name and value. Then set the username in a variable like $cookie_name. cookies saved in user computer</li>
+  
   <h2>How to delete the cookie?</h2>
-  setcookie("user",time()-3600);
+ setcookie("user",time()-3600);
+ 
  <h2>What is Sessions? Tell me something about Sessions</h2>
  Session store user information. This information used in multiple pages.<strong>session does not save in user computer</strong> 
  suppose, you have one application. You want to change application. You change it and close it. Those whole things session variables saves until the browser closed. When the browser closed, session dies. Session holds one single user information.
+ 
  <h3>How to start php session?</h3>
  You should use function which is named session_start(). Session variable are set php global variable $_SESSION
  You can print the session the value using print_r() function. Example, print_r($_SESSION).
- <h4>How to destroy the session</h4>
+ <h2>How to destroy the session</h2>
  You just use session_destroy() inside body tag.You can also unset session using session_unset()
- <h4>PHP Fileters???</h4>
+ 
+ <h2>PHP Fileters???</h2>
  In website if you take input from user, then you need filters. Why?. Because through filtering you cleaning the mess data or remove     illigal character and takes good data. Filtering is good validating and sanitizing data. 
- <b>filter_var() function validate and sanitize usr input.</b> If you want to validate an integer, then you should use FILTER_VALIDATE_INT. For email you should use FILTER_SANITIZE_EMAIL -> this is for sanitize the email and validating FILTER_VALIDATE_EMAIL
+ 
+ <b>filter_var() function validate and sanitize usr input.</b> If you want to validate an integer, then you should use 		  FILTER_VALIDATE_INT. For email you should use FILTER_SANITIZE_EMAIL -> this is for sanitize the email and validating FILTER_VALIDATE_EMAIL
+
 <ul>
  <li>filter_has_var() Checks if a variable of a specified input type exist</li>
  <li>filter_id() Returns the filter ID of a specified filter name</li>
@@ -104,7 +110,8 @@ echo str_replace("joy","tanmoy","Hello joy!");
  <li>filter_var_array() Gets multiple variables and filter them</li>
  <li>filter_var() Filters a variable with a specified filter</li>
  </ul>
- <section>
+ 
+ 
  <h3>PHP error handling</h3>
  <p>You should use die() function.
   
@@ -124,7 +131,8 @@ echo str_replace("joy","tanmoy","Hello joy!");
  If you want to handle custom error, then you need to create a function which is give a message when error occurs.
  function have two param(error level, error message) 
  
- ```php
+```php
+ 
   function error($errorno, $errorstr){
   	echo "Error: [$errorno] $errorstr";
 	echo "Ending script";
@@ -135,11 +143,9 @@ echo str_replace("joy","tanmoy","Hello joy!");
 ###### PHP Exception Handling
 ###### What is an Exception???
 You write a program and it's not show you the desired output.It's stop the prograam because error happens. Exception basically stops
-program flow.We don't want stop the program. ** That's why we need to deal with Exception Handling **
- </p>
+program flow.We don't want stop the program.  That's why we need to deal with Exception Handling 
+ 
 	
-</p>
-
 
 ## MySQL
 <ul>
