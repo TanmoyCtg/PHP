@@ -3,33 +3,46 @@
 		header("Location: index.php");
 		return;
 	}
+
+	// Global variable
 	$salt = 'XyZzy12*_';
 	$stored_hash = '1a52e17fa899cf40fb04cfc42e6352f1';  // php123
 	$failure = false;  // If we have no POST data
-	$user='';
-	// Check to see if we have some POST data, if we do process it
-	if (isset($_POST["who"]) && isset($_POST["pass"])){
-		$user = $_POST['who'];
+	
+	// when the login clicked
+
+	if (isset($_POST['login'])){
+
+		// local var
+		$user =htmlentities($_POST['who']);
+		$pass =$_POST['pass'];
 		$findMe='@';
 		$pos = strpos($user, $findMe);
-		
-		if (strlen($_POST['who'])<1 || strlen($_POST['pass']) <1){
+
+		// user and pass not enter
+		if (!(isset($user) || isset($pass))) {
+			$failure = 'User name and password are required';
+		}
+		// user name enter but pass not enter
+		elseif( !isset($pass) ) {
 			$failure = 'User name and password are required';
 		}
 		elseif ($pos === false) {
 			$failure="Email must have an at-sign (@)";
 		}
-		else{
-			$check = hash('md5', $salt.$_POST['pass']);
+		else {
+			// check the password
+			$check = hash('md5', $salt.$pass);
+			error_log("Login fail ".$user." $check");
 			if ($check == $stored_hash){
-				header("Location: autos.php?name=".urlencode(htmlentities($_POST['who'])));
+				header("Location: autos.php?name=".urlencode(htmlentities($user)));
+				error_log("Login success ".$user);
 				return;
-			}
-			else{
+			} else {
 				$failure = "Incorrect password";
 			}
 		}
-	}
+}
 
 ?>
 <!DOCTYPE html>
@@ -50,7 +63,7 @@
 			<input type="text" name="who" id="nam"><br/>
 			<label for="id_1723">Password</label>
 			<input type="text" name="pass" id="id_1723"><br/>
-			<input type="submit" value="Log In">
+			<input type="submit" name ="login" value="Log In">
 			<input type="submit" name="cancel" value="Cancel">
 		</form>	
 	</div>
