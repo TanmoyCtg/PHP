@@ -1,0 +1,733 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pre",
+				"prepare"
+			],
+			[
+				"fia",
+				"failure"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"se",
+				"_SESSION"
+			],
+			[
+				"S",
+				"_SESSION"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"session_",
+				"session_destroy"
+			],
+			[
+				"ca",
+				"cancel"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"is",
+				"is_numeric"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"haed",
+				"header"
+			],
+			[
+				"htm",
+				"htmlentities"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cla",
+				"classname"
+			],
+			[
+				"cl",
+				"classname"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"print",
+				"printHello"
+			],
+			[
+				"las",
+				"lastname"
+			],
+			[
+				"filter",
+				"FILTER_VALIDATE_INT"
+			],
+			[
+				"FIL",
+				"FILTER_SANITIZE_STRING"
+			],
+			[
+				"pading",
+				"padding-top\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"colla",
+				"collapsibleNavbar"
+			],
+			[
+				"bo",
+				"bottom\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"pro",
+				"progressbar"
+			],
+			[
+				"progr",
+				"progressbar"
+			],
+			[
+				"p",
+				"progress"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"to",
+				"toEmail"
+			],
+			[
+				"msg",
+				"msgClass"
+			],
+			[
+				"me",
+				"meta"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"col",
+				"col-sm-2"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"contai",
+				"container-fluid"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"home",
+				"home-tab"
+			],
+			[
+				"name",
+				"names"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"con",
+				"confirmMsg"
+			],
+			[
+				"confir",
+				"confirmPassword"
+			],
+			[
+				"co",
+				"confirmPassword"
+			],
+			[
+				"user",
+				"userEmpty"
+			],
+			[
+				"isn",
+				"is_numeric"
+			],
+			[
+				"char",
+				"charNeed"
+			],
+			[
+				"pass",
+				"passrequire"
+			],
+			[
+				"ue",
+				"username"
+			],
+			[
+				"filt",
+				"filter_var"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"em",
+				"emailError"
+			],
+			[
+				"emai",
+				"email"
+			],
+			[
+				"usr",
+				"username"
+			],
+			[
+				"else",
+				"elseif\telseif …"
+			],
+			[
+				"check",
+				"checkUserNameValidation"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"ur",
+				"urlencode"
+			],
+			[
+				"s",
+				"stored_hash"
+			],
+			[
+				"id",
+				"id_1723"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"cop",
+				"copier"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"arr",
+				"arrayName"
+			],
+			[
+				"J",
+				"JPanel"
+			],
+			[
+				"tab",
+				"tabbedPane"
+			],
+			[
+				"int",
+				"interface2"
+			],
+			[
+				"show",
+				"showable"
+			],
+			[
+				"pr",
+				"printable"
+			],
+			[
+				"dr",
+				"drawing"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"fal",
+				"failures"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"St",
+				"studentCounter"
+			],
+			[
+				"resul",
+				"result1"
+			],
+			[
+				"sql",
+				"sql1"
+			],
+			[
+				"tabl",
+				"TABLE"
+			],
+			[
+				"my",
+				"myguests"
+			],
+			[
+				"IN",
+				"INTO"
+			],
+			[
+				"mysql_er",
+				"mysql_error"
+			],
+			[
+				"mysql_",
+				"mysql_connect"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 3593,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/codenew",
+		"/C/xampp/htdocs/log"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/log/log project.sublime-project",
+		"/C/xampp/htdocs/codenew/view.php",
+		"/C/xampp/htdocs/log/pdo.php",
+		"/C/xampp/htdocs/codenew/login.php",
+		"/C/xampp/htdocs/rps/login.php",
+		"/C/xampp/htdocs/assignment/login.php",
+		"/C/xampp/htdocs/codenew/add.php",
+		"/C/xampp/htdocs/codenew/index.php",
+		"/C/xampp/htdocs/assignment/assignment2/view.php",
+		"/C/xampp/htdocs/assignment/autos.php",
+		"/C/xampp/htdocs/pdo/pdo.php",
+		"/C/xampp/htdocs/route/route/login.php",
+		"/C/xampp/htdocs/assignment/assignment2/login.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/sign.php",
+		"/C/xampp/htdocs/assignment/assignment2/login2.php",
+		"/C/xampp/htdocs/assignment/assignment2/add.php",
+		"/C/xampp/htdocs/sessions/sessions/nocookie.php",
+		"/C/xampp/htdocs/sessions/sessions/sessfun.php",
+		"/C/xampp/htdocs/sessions/sessions/cookie.php",
+		"/C/xampp/htdocs/route/route/app.php",
+		"/C/xampp/htdocs/pdo/user1.php",
+		"/C/xampp/htdocs/pdo/login1.php",
+		"/C/xampp/htdocs/assignment/bootstrap.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/pr1.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/sessfun.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/cookie.php",
+		"/C/Users/chowd/AppData/Local/Temp/Temp1_food (1).zip/food/footer.php",
+		"/C/Users/chowd/AppData/Local/Temp/Temp1_food (1).zip/food/index.php",
+		"/C/xampp/htdocs/assignment/pdo.php",
+		"/C/xampp/htdocs/assignment/index.php",
+		"/C/xampp/htdocs/pdo/errors/error3.php",
+		"/C/xampp/htdocs/pdo/errors/error2.php",
+		"/C/xampp/htdocs/pdo/errors/error1.php",
+		"/C/xampp/htdocs/pdo/errors/error0.php",
+		"/C/xampp/htdocs/pdo/aa-error-check.php",
+		"/C/xampp/htdocs/pdo/user3.php",
+		"/C/xampp/htdocs/pdo/user2.php",
+		"/C/xampp/htdocs/pdo/login2.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/rps/login.php",
+		"/C/xampp/htdocs/joy/hashfunc.php",
+		"/C/xampp/htdocs/rps/index.php",
+		"/C/xampp/htdocs/rps/bootstrap.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/forms/more.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/forms/html5.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/forms/guess_mvc.php",
+		"/C/xampp/htdocs/assignment/delete.php",
+		"/C/xampp/htdocs/assignment/add.php",
+		"/C/xampp/htdocs/assignment/edit.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/classdemo3.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/classdemo5.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/first.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/one.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/second.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/two.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/classdemo4.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/simpleclass1.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/classDemo2.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/inheritanceExample.php",
+		"/C/xampp/htdocs/index.html",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/visibility.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/personclass.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/animal.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/Hello.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/pdocourse.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/tablecreate.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/insertvalue.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/bindparam.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/phpmysqlselect.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/pdodb.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/index1.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/filter1.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/phpconn.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/phperror.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/footer.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/file1.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/file.txt",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/time.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/multidimensioanl.php",
+		"/C/xampp/htdocs/PHP/bootstrap/index.html",
+		"/C/xampp/htdocs/PHP/personal website/profile.html",
+		"/C/xampp/htdocs/PHP/bootstrap/style.css",
+		"/C/xampp/htdocs/PHP/personal website/css/style.css",
+		"/C/xampp/htdocs/PHP/personal website/tutorial.html",
+		"/C/xampp/htdocs/PHP/personal website/skill.html",
+		"/C/xampp/htdocs/PHP/personal website/home.html",
+		"/C/xampp/htdocs/PHP/personal website/contact.php",
+		"/C/xampp/htdocs/PHP/personal website/contact",
+		"/C/xampp/htdocs/PHP/personal website/contact.html",
+		"/C/xampp/htdocs/PHP/joy/index.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/rps/game.php",
+		"/C/xampp/htdocs/PHP/php-intro/code/arrays/index.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/rps/index.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/form2.php",
+		"/C/Users/chowd/Videos/phpsandbox/website2/index.php",
+		"/C/Users/chowd/Videos/phpsandbox/website1/index.php",
+		"/C/xampp/htdocs/joy/form1.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/game.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/rps.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/login.php",
+		"/C/xampp/htdocs/joy/array1.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/index.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/bootstrap.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/guess.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/crack/makecode.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/crack/md5.php",
+		"/C/Users/chowd/Documents/coursera/building web application spc/crack/index.php",
+		"/C/xampp/htdocs/php-intro/code/arrays/passwordCrack.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"password",
+			"email",
+			" )",
+			"email",
+			"name",
+			"name, email, password",
+			"d6d6c2",
+			"99cc00",
+			"<div class=\"container\">\n    <h1>MY PERSONAL SKILLS </h1> \n  </div>",
+			"name",
+			"ffffff",
+			" ><",
+			"page"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3050,
+								3050
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "log project.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\globe_bank\\globe_bank.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 146.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
