@@ -2,13 +2,11 @@
 session_start();
 require_once "pdo.php";
 if ($_SERVER['REQUEST_METHOD'] == "POST"){
-	
 	$sql = "DELETE FROM info WHERE id=".$_GET['id'];
 	$statment = $pdo->prepare($sql);
 	$statment -> execute();
 	$_SESSION['success'] = "record deleted";
 	header("location: index.php");
-
 }
 
 ?>

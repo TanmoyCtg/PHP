@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>sona mona</title>
-</head>
-<body>
-	<a href="add.php">BACK</a>
-</body>
-</html>
 <?php 
 	session_start();
 	require_once "pdo.php";
@@ -18,7 +9,13 @@
 	$statment = $pdo->prepare($sql);
 	$statment -> execute();
 
-	echo('<table border="1">'."\n");
+	// echo('<table border="1">'."\n");
+	echo ("<table class='table table-bordered'>");
+	echo("<th>". "Title"."</th>");
+	echo("<th>". "Description"."</th>");
+	echo("<th>". "Time"."</th>");
+	echo("<th>". "Action"."</th>");
+
 	while($row= $statment -> fetch(PDO::FETCH_ASSOC)){
 		echo "<tr><td>";
     	echo(htmlentities($row['title']));
@@ -33,3 +30,33 @@
 
 	}
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sona mona</title>
+	<meta charset="utf-8">
+  	<?php require_once "bootstrap.php" ?>
+</head>
+<body>
+	<div class="container">
+		<h1>
+			<a href="add.php"><span class="label label-default">Add New Record</span></a>
+		</h1>
+		<h2>
+			<a href="login.php"><span class="label label-default">Logout</span></a>
+		</h2>
+	</div>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
